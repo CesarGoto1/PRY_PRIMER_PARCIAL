@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "title": "Chimborazo",
+    "description": "El punto más cercano al sol en la Tierra. Ideal para el montañismo y disfrutar de paisajes nevados únicos.",
+    "province": "Chimborazo",
+    "altitude": "6,263 m s.n.m.",
+    "bestSeason": "Junio a septiembre",
+    "activities": ["Montañismo", "Fotografía", "Observación de fauna altoandina"],
+    "tips": "Lleva ropa térmica y aclimátate antes de ascender.",
+    "photo": "./public/assets/Chimborazo.jpg",
+    "location": { "lat": -1.4693, "lng": -78.8162 }
+  },
+  {
+    "id": 2,
+    "title": "Laguna Quilotoa",
+    "description": "Un cráter volcánico con una laguna turquesa espectacular, perfecta para senderismo y fotografía.",
+    "province": "Cotopaxi",
+    "altitude": "3,914 m s.n.m.",
+    "bestSeason": "Todo el año",
+    "activities": ["Caminatas", "Kayak", "Camping"],
+    "tips": "Lleva agua y abrigo; el clima cambia rápidamente.",
+    "photo": "./public/assets/Quilotoa.jpg",
+    "location": { "lat": -0.8633, "lng": -78.9253 }
+  },
+  {
+    "id": 3,
+    "title": "Cuenca",
+    "description": "Ciudad patrimonial con arquitectura colonial, arte y una vibrante cultura andina.",
+    "province": "Azuay",
+    "altitude": "2,560 m s.n.m.",
+    "bestSeason": "Junio a septiembre",
+    "activities": ["Turismo cultural", "Visitas a museos", "Gastronomía"],
+    "tips": "Camina por el centro histórico y visita el río Tomebamba.",
+    "photo": "./public/assets/Cuenca.jpg",
+    "location": { "lat": -2.9006, "lng": -79.0045 }
+  },
+  {
+    "id": 4,
+    "title": "Pedernales",
+    "description": "Hermosa ciudad costera con playas amplias y aguas cálidas, ideal para el descanso y la pesca.",
+    "province": "Manabí",
+    "altitude": "5 m s.n.m.",
+    "bestSeason": "Diciembre a mayo",
+    "activities": ["Natación", "Pesca", "Paseos en lancha"],
+    "tips": "Prueba los mariscos frescos locales y visita las playas cercanas.",
+    "photo": "./public/assets/Pedernales.jpg",
+    "location": { "lat": 0.0665, "lng": -80.0514 }
+  },
+  {
+    "id": 5,
+    "title": "Puyo",
+    "description": "Puerta de entrada a la Amazonía ecuatoriana, rodeado de cascadas, ríos y vegetación exuberante.",
+    "province": "Pastaza",
+    "altitude": "950 m s.n.m.",
+    "bestSeason": "Todo el año",
+    "activities": ["Senderismo", "Rafting", "Visita a comunidades amazónicas"],
+    "tips": "Usa repelente y lleva ropa ligera para el clima húmedo.",
+    "photo": "./public/assets/Puyo.jpg",
+    "location": { "lat": -1.4833, "lng": -77.9833 }
+  },
+  {
+    "id": 6,
+    "title": "Baños de Agua Santa",
+    "description": "Famoso por sus cascadas, termas naturales y deportes de aventura como rafting y canopy.",
+    "province": "Tungurahua",
+    "altitude": "1,820 m s.n.m.",
+    "bestSeason": "Agosto a diciembre",
+    "activities": ["Canopy", "Ciclismo", "Rafting"],
+    "tips": "No te pierdas el ‘Columpio del Fin del Mundo’ en la Casa del Árbol.",
+    "photo": "./public/assets/Banos.jpg",
+    "location": { "lat": -1.396, "lng": -78.4229 }
+  },
+  {
+    "id": 7,
+    "title": "Montañita",
+    "description": "Destino icónico para el surf, la vida nocturna y el ambiente bohemio frente al Pacífico.",
+    "province": "Santa Elena",
+    "altitude": "10 m s.n.m.",
+    "bestSeason": "Diciembre a abril",
+    "activities": ["Surf", "Vida nocturna", "Gastronomía"],
+    "tips": "Ideal para mochileros y quienes buscan diversión frente al mar.",
+    "photo": "./public/assets/Montanita.jpg",
+    "location": { "lat": -1.8304, "lng": -80.7571 }
+  },
+  {
+    "id": 8,
+    "title": "Islas Galápagos",
+    "description": "Un paraíso natural único en el mundo, hogar de especies que inspiraron la teoría de la evolución.",
+    "province": "Galápagos",
+    "altitude": "0 a 1,700 m s.n.m.",
+    "bestSeason": "Diciembre a mayo",
+    "activities": ["Snorkel", "Buceo", "Avistamiento de fauna marina"],
+    "tips": "Respeta las normas del Parque Nacional y lleva protector solar biodegradable.",
+    "photo": "./public/assets/Galapagos.jpg",
+    "location": { "lat": -0.9538, "lng": -90.9656 }
+  },
+  {
+    "id": 9,
+    "title": "Otavalo",
+    "description": "Conocido por su mercado artesanal y la rica cultura indígena de los pueblos andinos.",
+    "province": "Imbabura",
+    "altitude": "2,532 m s.n.m.",
+    "bestSeason": "Todo el año",
+    "activities": ["Compras", "Cultura", "Fotografía"],
+    "tips": "Visita el mercado de ponchos los sábados y regatea con respeto.",
+    "photo": "./public/assets/Otavalo.jpg",
+    "location": { "lat": 0.2333, "lng": -78.2667 }
+  },
+  {
+    "id": 10,
+    "title": "Mindo",
+    "description": "Un valle lleno de biodiversidad, aves tropicales y aventuras como canopy y tubing.",
+    "province": "Pichincha",
+    "altitude": "1,250 m s.n.m.",
+    "bestSeason": "Junio a noviembre",
+    "activities": ["Avistamiento de aves", "Canopy", "Tubing"],
+    "tips": "Ideal para los amantes de la naturaleza y la fotografía.",
+    "photo": "./public/assets/Mindo.jpg",
+    "location": { "lat": -0.0523, "lng": -78.7768 }
+  },
+  {
+    "id": 11,
+    "title": "Guayaquil",
+    "description": "La 'Perla del Pacífico', moderna y vibrante, con el Malecón 2000 y el histórico barrio Las Peñas.",
+    "province": "Guayas",
+    "altitude": "4 m s.n.m.",
+    "bestSeason": "Junio a noviembre",
+    "activities": ["Cultura urbana", "Gastronomía", "Paseos en el Malecón"],
+    "tips": "Camina por Las Peñas y disfruta de la vista panorámica desde el Cerro Santa Ana.",
+    "photo": "./public/assets/Guayaquil.jpg",
+    "location": { "lat": -2.1700, "lng": -79.9224 }
+  },
+  {
+    "id": 12,
+    "title": "Quito",
+    "description": "La capital del Ecuador, ubicada a los pies del volcán Pichincha y reconocida por su centro histórico colonial.",
+    "province": "Pichincha",
+    "altitude": "2,850 m s.n.m.",
+    "bestSeason": "Junio a septiembre",
+    "activities": ["Visitas históricas", "Museos", "Gastronomía"],
+    "tips": "No te pierdas el Teleférico ni la Mitad del Mundo.",
+    "photo": "./public/assets/Quito.jpg",
+    "location": { "lat": -0.2299, "lng": -78.5249 }
+  }
+  
+]

@@ -1,0 +1,37 @@
+.card {
+    cursor: pointer;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #fff;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .75rem;
+}
+button {
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 160px;
+    }
+}
