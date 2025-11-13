@@ -1,4 +1,3 @@
-// ...existing code...
 const USER_KEY = 'user';
 const USERS_KEY = 'users';
 
@@ -55,7 +54,6 @@ export function updateGreeting() {
   }
 }
 
-// --- Gestión de usuarios registrados (persistencia simple) ---
 export function getUsers() {
   try {
     return JSON.parse(localStorage.getItem(USERS_KEY)) || [];

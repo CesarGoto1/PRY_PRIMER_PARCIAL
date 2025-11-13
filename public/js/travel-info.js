@@ -1,30 +1,28 @@
-// /components/travel-info.js
-import './travel-info-item.js';
-
-const template = document.createElement('template');
-template.innerHTML = `
-  <link href="/public/vendor/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    :host {
-      display: block;
-      width: 90%;
-      margin: 1rem auto;
-    }
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-  </style>
-  <ul id="infoList" class="list-group"></ul>
-`;
-
 export class TravelInfo extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
-    this.listEl = this.shadowRoot.querySelector('#infoList');
+    const shadow = this.attachShadow({ mode: 'open' });
+
+    shadow.innerHTML = `
+      <link href="/public/vendor/css/bootstrap.min.css" rel="stylesheet">
+
+      <style>
+        :host {
+          display: block;
+          width: 90%;
+          margin: 1rem auto;
+        }
+        ul {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+        }
+      </style>
+
+      <ul id="infoList" class="list-group"></ul>
+    `;
+
+    this.listEl = shadow.querySelector('#infoList');
   }
 
   set data(travel) {
@@ -38,10 +36,8 @@ export class TravelInfo extends HTMLElement {
       { label: 'Consejos', value: travel.tips || '—' },
     ];
 
-    // Limpiar lista anterior
     this.listEl.innerHTML = '';
 
-    // Agregar los ítems usando el nuevo componente
     items.forEach(info => {
       const item = document.createElement('travel-info-item');
       item.data = info;

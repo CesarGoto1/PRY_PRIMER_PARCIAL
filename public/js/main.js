@@ -4,6 +4,7 @@ import './button-detalles.js';
 import './auth.js';
 import './booking-modal.js';
 import './travel-info.js';
+import './travel-info-item.js';
 import './travel-map.js';
 import './close-button.js';
 
